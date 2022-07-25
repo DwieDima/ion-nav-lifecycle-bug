@@ -6,6 +6,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 import { Tab1Page } from './tab1.page';
 
 import { ModalOutletPageModule } from '../outlet/modal-outlet/modal-outlet.module';
+import { AddCardPageModule } from '../pages/add-card/add-card.module';
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 
 @NgModule({
@@ -16,7 +17,8 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     ExploreContainerComponentModule,
     Tab1PageRoutingModule,
     ModalOutletPageModule,
+    AddCardPageModule
   ],
-  declarations: [Tab1Page],
+  declarations: [Tab1Page]
 })
 export class Tab1PageModule {}

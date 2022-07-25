@@ -7,6 +7,6 @@ import { ModalOutletPage } from './modal-outlet.page';
 @NgModule({
   imports: [CommonModule, FormsModule, IonicModule],
   declarations: [ModalOutletPage],
-  exports: [ModalOutletPage],
+  exports: [ModalOutletPage]
 })
 export class ModalOutletPageModule {}

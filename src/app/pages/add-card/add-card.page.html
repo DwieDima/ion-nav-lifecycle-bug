@@ -9,4 +9,16 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content> </ion-content>
+<ion-content>
+  <swiper [config]="swiperConfig">
+    <ng-template swiperSlide *ngFor="let i of [].constructor(5)">
+      <ion-card> Slide 1 </ion-card>
+    </ng-template>
+  </swiper>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <div class="swiper-pagination-dots"></div>
+  </ion-toolbar>
+</ion-footer>
