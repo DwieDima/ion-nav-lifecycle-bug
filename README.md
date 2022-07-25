@@ -1,1 +1,0 @@
-# ion-nav-lifecycle-bug
